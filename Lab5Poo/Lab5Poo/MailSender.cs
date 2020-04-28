@@ -14,6 +14,7 @@ namespace Lab5Poo
             Thread.Sleep(2000);
             Console.WriteLine($"\nCorreo enviado a {e.Email}: \n Gracias por registrarte, {e.Username}!\n Por favor, para poder verificar tu correo, has click en: {e.VerificationLink}\n");
             Thread.Sleep(2000);
+            OnEmailSented(); //para ver si quiere hacer la confirmacion ,Se dispara luego que el usuario se regristro correctamente
         }
 
         public void OnPasswordChanged(object source, ChangePasswordEventArgs e)
@@ -30,7 +31,7 @@ namespace Lab5Poo
         // Paso 2: Creamos el evento que se engatilla cuando el usuario se registra
         public event EmailSentEventHandler EmailSented;
 
-        protected virtual void OnEmailSented()
+        protected virtual void OnEmailSented() //(1)
         {
             EmailSented(this, EventArgs.Empty);  //lanza el evento despues del correo de confirmacion
              

@@ -29,8 +29,10 @@ namespace Lab5Poo
             server.PasswordChanged += smsSender.OnPasswordChanged;
 
 
-            mailSender.EmailSented += user.OnEmailSent;
-            user.EmailVerified += server.OnEmailVerified;
+            mailSender.EmailSented += user.OnEmailSent; //llamo a los nuevos metodos y eventos creados
+            user.EmailVerified += user.EmailVerified ;
+            
+
             
 
 
@@ -48,6 +50,8 @@ namespace Lab5Poo
                         Console.Clear();
                         server.Register();
                         
+
+
                         break;
                     case "Cambiar contrasena":
                         Console.Clear();

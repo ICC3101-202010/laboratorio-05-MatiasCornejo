@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Threading;
+
 namespace Lab5Poo
+
 {
-    public class User
+  
+    public class User //(2)
     {
         public int EmailVerified { get; internal set; }
 
@@ -22,7 +26,7 @@ namespace Lab5Poo
 
 
 
-        public void OnEmailSent(object source,EventArgs args)
+        public void OnEmailSent(object source,EventArgs args)  //este solamente es lanzado cuando el usuario se registra correctamente
 
 
 
@@ -42,8 +46,13 @@ namespace Lab5Poo
                 OnEmailVerified(this,new EventArgs());
                 
             }
-           
-            
+
+            if (num != 2 && num !=1)
+            {
+                Thread.Sleep(2000);
+                Console.WriteLine("opcion ingresada invalida, se volvera al menu principal");
+                Thread.Sleep(2000);
+            }
 
         }
 
