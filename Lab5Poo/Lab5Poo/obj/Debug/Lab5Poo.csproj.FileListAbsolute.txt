@@ -1,0 +1,6 @@
+/Users/matiascornejolazcano/Desktop/laboratorio-05-MatiasCornejo/Lab5Poo/Lab5Poo/bin/Debug/Lab5Poo.exe
+/Users/matiascornejolazcano/Desktop/laboratorio-05-MatiasCornejo/Lab5Poo/Lab5Poo/bin/Debug/Lab5Poo.pdb
+/Users/matiascornejolazcano/Desktop/laboratorio-05-MatiasCornejo/Lab5Poo/Lab5Poo/obj/Debug/Lab5Poo.csprojAssemblyReference.cache
+/Users/matiascornejolazcano/Desktop/laboratorio-05-MatiasCornejo/Lab5Poo/Lab5Poo/obj/Debug/Lab5Poo.csproj.CoreCompileInputs.cache
+/Users/matiascornejolazcano/Desktop/laboratorio-05-MatiasCornejo/Lab5Poo/Lab5Poo/obj/Debug/Lab5Poo.exe
+/Users/matiascornejolazcano/Desktop/laboratorio-05-MatiasCornejo/Lab5Poo/Lab5Poo/obj/Debug/Lab5Poo.pdb
