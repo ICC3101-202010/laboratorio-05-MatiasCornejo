@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{25B49869-3916-424C-B695-F880915F2284}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab5Poo PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab5Poo/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab5Poo/.gitignore">
     <Files>
-      <File FileName="Lab5Poo/Program.cs" Line="32" Column="103" />
-      <File FileName="Lab5Poo/DataBase.cs" />
-      <File FileName="Lab5Poo/Server.cs" />
-      <File FileName="Lab5Poo/RegisterEventArgs.cs" />
-      <File FileName="Lab5Poo/ChangePasswordEventArgs.cs" />
-      <File FileName="Lab5Poo/SMSSender.cs" />
-      <File FileName="Lab5Poo/MailSender.cs" />
-      <File FileName="Lab5Poo/User.cs" Line="42" Column="1" />
+      <File FileName="Lab5Poo/Program.cs" Line="79" Column="1" />
+      <File FileName="Lab5Poo/DataBase.cs" Line="4" Column="2" />
+      <File FileName="Lab5Poo/Server.cs" Line="81" Column="1" />
+      <File FileName="Lab5Poo/RegisterEventArgs.cs" Line="3" Column="19" />
+      <File FileName="Lab5Poo/ChangePasswordEventArgs.cs" Line="4" Column="1" />
+      <File FileName="Lab5Poo/SMSSender.cs" Line="12" Column="10" />
+      <File FileName="Lab5Poo/MailSender.cs" Line="15" Column="71" />
+      <File FileName="Lab5Poo/User.cs" Line="29" Column="202" />
+      <File FileName="Lab5Poo/.gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Lab5Poo" expanded="True">
             <Node name="Lab5Poo" expanded="True">
-              <Node name="User.cs" selected="True" />
+              <Node name=".gitignore" selected="True" />
             </Node>
           </Node>
         </State>
