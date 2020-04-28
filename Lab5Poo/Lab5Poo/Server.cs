@@ -78,6 +78,7 @@ namespace Lab5Poo
             {
                 // Disparamos el evento
                 OnRegistered(usr, psswd, verificationlink: verificationLink, email: email);
+
                
             }
             else

@@ -26,7 +26,7 @@ namespace Lab5Poo
 
 
 
-        public void OnEmailSent(object source,EventArgs args)  //este solamente es lanzado cuando el usuario se registra correctamente
+        public void OnEmailSent(object source,EventArgs args)  //este solamente es lanzado cuando el usuario se registra correctamente y se coloca en mailsender despues de que se registro correctamente
 
 
 
